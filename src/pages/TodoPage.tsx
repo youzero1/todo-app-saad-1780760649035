@@ -1,7 +1,7 @@
-import { useTodos } from '@/hooks/useTodos';
-import TodoInput from '@/components/TodoInput';
-import TodoItem from '@/components/TodoItem';
-import FilterBar from '@/components/FilterBar';
+import { useTodos } from '../hooks/useTodos';
+import TodoInput from '../components/TodoInput';
+import TodoItem from '../components/TodoItem';
+import FilterBar from '../components/FilterBar';
 import { ClipboardList } from 'lucide-react';
 
 export default function TodoPage() {

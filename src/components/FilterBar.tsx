@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import type { FilterType } from '@/types';
+import type { FilterType } from '../types';
 
 type FilterBarProps = {
   filter: FilterType;

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import type { Todo, FilterType } from '@/types';
+import type { Todo, FilterType } from '../types';
 
 function loadFromStorage(): Todo[] {
   try {
