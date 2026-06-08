@@ -19,7 +19,7 @@ export default function TodoPage() {
   } = useTodos();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-purple-50 flex items-start justify-center px-4 pt-16 pb-16">
+    <div className="min-h-screen bg-gradient-to-br from-yellow-50 via-white to-amber-50 flex items-start justify-center px-4 pt-16 pb-16">
       <div className="w-full max-w-lg">
         {/* Header */}
         <div className="mb-8 text-center">
@@ -31,7 +31,7 @@ export default function TodoPage() {
         </div>
 
         {/* Card */}
-        <div className="rounded-2xl bg-white/80 backdrop-blur-sm border border-gray-100 shadow-xl p-6 flex flex-col gap-5">
+        <div className="rounded-2xl bg-white/80 backdrop-blur-sm border border-yellow-100 shadow-xl p-6 flex flex-col gap-5">
           {/* Input */}
           <TodoInput onAdd={addTodo} />
 
